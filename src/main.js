@@ -17,10 +17,10 @@ async function cargarDatos() {
     new DataTable('#tabla-posts', {
       data: datos,
       columns: [
-        { data: 'email' },
-        { data: 'phone' },
-        { data: 'birthDate' },
-        { data: 'website' }
+        { data: 'id' },
+        { data: 'name' },
+        { data: 'username' },
+        { data: 'email' }
       ],
       pageLength: 10,
       language: {
